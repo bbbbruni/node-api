@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# node-api
-Node API + Vue project
-=======
 # projetin
 
 ## Project setup
@@ -36,4 +32,4 @@ yarn run test:unit
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
->>>>>>> First commit
+
