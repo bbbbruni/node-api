@@ -1,15 +1,11 @@
 <template>
   <div>
-    aaaaaaaaaaaaaaaaaa
   </div>
 </template>
 
 <script>
 export default {
   name: 'UserProfile',
-  props: {
-    msg: String
-  }
 }
 </script>
 
