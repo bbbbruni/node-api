@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <router-view />
+    <router-view :key="$route.fullPath"></router-view>
   </div>
 </template>
 
@@ -14,5 +14,17 @@ export default {
 <style lang="scss">
 * {
   box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 1rem;
+  margin: auto;
 }
 </style>
